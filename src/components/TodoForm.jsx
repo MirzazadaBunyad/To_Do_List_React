@@ -13,7 +13,7 @@ export default function TodoForm({ addTodo }) {
       <input
         type="text"
         className="todo-input"
-        placeholder="What is the task today?"
+        placeholder="What are the tasks today?"
         value={value}
         onChange={(e) => {
           setValue(e.target.value);
