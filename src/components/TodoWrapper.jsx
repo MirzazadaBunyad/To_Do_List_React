@@ -41,8 +41,8 @@ export default function TodoWrapper() {
     );
   };
   return (
-    <div className="TodoWrapper">
-      <h1>Get Things Done!</h1>
+    <div className="todo-wrapper">
+      <h1 className="todo-wrapper-head">Add Tasks!</h1>
       <TodoForm addTodo={addTodo} />
       {todos.map((todo, i) =>
         todo.isEditing ? (
